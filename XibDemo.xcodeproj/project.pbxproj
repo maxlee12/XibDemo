@@ -14,6 +14,15 @@
 		212E8DEA1D82A0FF0098C96D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212E8DE81D82A0FF0098C96D /* LaunchScreen.storyboard */; };
 		212E8DF51D82A0FF0098C96D /* XibDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E8DF41D82A0FF0098C96D /* XibDemoTests.swift */; };
 		212E8E001D82A0FF0098C96D /* XibDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E8DFF1D82A0FF0098C96D /* XibDemoUITests.swift */; };
+		213E00BD1D82A59F009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00AB1D82A59F009F44E7 /* ReadMe */; };
+		213E00BE1D82A59F009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00AE1D82A59F009F44E7 /* ReadMe */; };
+		213E00BF1D82A59F009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00B01D82A59F009F44E7 /* ReadMe */; };
+		213E00C01D82A59F009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00B31D82A59F009F44E7 /* ReadMe */; };
+		213E00C11D82A59F009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00B51D82A59F009F44E7 /* ReadMe */; };
+		213E00C21D82A59F009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00B81D82A59F009F44E7 /* ReadMe */; };
+		213E00C31D82A59F009F44E7 /* local.strings in Resources */ = {isa = PBXBuildFile; fileRef = 213E00BA1D82A59F009F44E7 /* local.strings */; };
+		213E00C41D82A59F009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00BC1D82A59F009F44E7 /* ReadMe */; };
+		213E00CA1D82A7DB009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00C91D82A7DB009F44E7 /* ReadMe */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,19 @@
 		212E8DFB1D82A0FF0098C96D /* XibDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212E8DFF1D82A0FF0098C96D /* XibDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibDemoUITests.swift; sourceTree = "<group>"; };
 		212E8E011D82A0FF0098C96D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213E00AB1D82A59F009F44E7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		213E00AE1D82A59F009F44E7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		213E00B01D82A59F009F44E7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		213E00B31D82A59F009F44E7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		213E00B51D82A59F009F44E7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		213E00B81D82A59F009F44E7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		213E00BA1D82A59F009F44E7 /* local.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = local.strings; sourceTree = "<group>"; };
+		213E00BC1D82A59F009F44E7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		213E00C51D82A721009F44E7 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		213E00C61D82A72F009F44E7 /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		213E00C71D82A73D009F44E7 /* VendorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
+		213E00C81D82A74E009F44E7 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		213E00C91D82A7DB009F44E7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +122,12 @@
 				212E8DDF1D82A0FF0098C96D /* AppDelegate.swift */,
 				212E8DE11D82A0FF0098C96D /* ViewController.swift */,
 				212E8DE31D82A0FF0098C96D /* Main.storyboard */,
+				213E00A71D82A59F009F44E7 /* Business */,
+				213E00B11D82A59F009F44E7 /* Public */,
 				212E8DE61D82A0FF0098C96D /* Assets.xcassets */,
 				212E8DE81D82A0FF0098C96D /* LaunchScreen.storyboard */,
 				212E8DEB1D82A0FF0098C96D /* Info.plist */,
+				213E00C91D82A7DB009F44E7 /* ReadMe */,
 			);
 			path = XibDemo;
 			sourceTree = "<group>";
@@ -123,6 +148,128 @@
 				212E8E011D82A0FF0098C96D /* Info.plist */,
 			);
 			path = XibDemoUITests;
+			sourceTree = "<group>";
+		};
+		213E00A71D82A59F009F44E7 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				213E00A81D82A59F009F44E7 /* General */,
+				213E00AD1D82A59F009F44E7 /* Models */,
+				213E00AF1D82A59F009F44E7 /* Sections */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		213E00A81D82A59F009F44E7 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				213E00AB1D82A59F009F44E7 /* ReadMe */,
+				213E00A91D82A59F009F44E7 /* Categories */,
+				213E00AA1D82A59F009F44E7 /* Classes */,
+				213E00AC1D82A59F009F44E7 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		213E00A91D82A59F009F44E7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		213E00AA1D82A59F009F44E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		213E00AC1D82A59F009F44E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		213E00AD1D82A59F009F44E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				213E00AE1D82A59F009F44E7 /* ReadMe */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		213E00AF1D82A59F009F44E7 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				213E00B01D82A59F009F44E7 /* ReadMe */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		213E00B11D82A59F009F44E7 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				213E00B21D82A59F009F44E7 /* Helpers */,
+				213E00B41D82A59F009F44E7 /* Macro */,
+				213E00B61D82A59F009F44E7 /* Resources */,
+				213E00BB1D82A59F009F44E7 /* Vendors */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		213E00B21D82A59F009F44E7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				213E00B31D82A59F009F44E7 /* ReadMe */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		213E00B41D82A59F009F44E7 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				213E00B51D82A59F009F44E7 /* ReadMe */,
+				213E00C51D82A721009F44E7 /* AppMacro.h */,
+				213E00C61D82A72F009F44E7 /* NotificationMacro.h */,
+				213E00C71D82A73D009F44E7 /* VendorMacro.h */,
+				213E00C81D82A74E009F44E7 /* UtilsMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		213E00B61D82A59F009F44E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				213E00B81D82A59F009F44E7 /* ReadMe */,
+				213E00B71D82A59F009F44E7 /* BigPhoto */,
+				213E00B91D82A59F009F44E7 /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		213E00B71D82A59F009F44E7 /* BigPhoto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BigPhoto;
+			sourceTree = "<group>";
+		};
+		213E00B91D82A59F009F44E7 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				213E00BA1D82A59F009F44E7 /* local.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		213E00BB1D82A59F009F44E7 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				213E00BC1D82A59F009F44E7 /* ReadMe */,
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +376,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213E00BE1D82A59F009F44E7 /* ReadMe in Resources */,
+				213E00BD1D82A59F009F44E7 /* ReadMe in Resources */,
+				213E00C21D82A59F009F44E7 /* ReadMe in Resources */,
+				213E00BF1D82A59F009F44E7 /* ReadMe in Resources */,
 				212E8DEA1D82A0FF0098C96D /* LaunchScreen.storyboard in Resources */,
+				213E00C11D82A59F009F44E7 /* ReadMe in Resources */,
+				213E00C31D82A59F009F44E7 /* local.strings in Resources */,
 				212E8DE71D82A0FF0098C96D /* Assets.xcassets in Resources */,
+				213E00CA1D82A7DB009F44E7 /* ReadMe in Resources */,
+				213E00C41D82A59F009F44E7 /* ReadMe in Resources */,
+				213E00C01D82A59F009F44E7 /* ReadMe in Resources */,
 				212E8DE51D82A0FF0098C96D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +640,7 @@
 				212E8E061D82A0FF0098C96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212E8E071D82A0FF0098C96D /* Build configuration list for PBXNativeTarget "XibDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +649,7 @@
 				212E8E091D82A0FF0098C96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212E8E0A1D82A0FF0098C96D /* Build configuration list for PBXNativeTarget "XibDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +658,7 @@
 				212E8E0C1D82A0FF0098C96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,7 @@
+
+这个目录下放了整个应用会用到的宏定义，里面大概是这样：
+Macro
+|- AppMacro.h
+|- NotificationMacro.h // 通知相关
+|- VendorMacro.h //第三方常量 (微信、相关API)
+|- UtilsMacro.h //方便使用的 （颜色、尺寸等）

@@ -1,0 +1,10 @@
+
+
+Models
+这个目录下放一些与数据相关的Model文件，里面大概是这样：
+
+Models
+|- BaseModel.h
+|- BaseModel.m
+|- CollectionModel.h
+|- CollectionModel.m

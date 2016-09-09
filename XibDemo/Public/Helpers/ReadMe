@@ -1,0 +1,13 @@
+
+
+这个目录放一些助手类，文件名与功能挂钩。比如对JSON接口（AFNetworking的二次封装可以放在这里）二维码的封装也可以放在这里。
+
+里面大概是这样：
+
+Helpers
+
+|- TPKShareHelper
+
+|- TPDBHelper
+
+|- TPKEmotionHelper

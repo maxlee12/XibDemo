@@ -1,0 +1,4 @@
+
+Resources
+Resources (大图，音乐，视屏等) 注：大图使用[UIImage imageWithContentsOfFile:@”imagePath”]的方式。
+这个目录下放的是app会用到的一些资源，主要是图片。
