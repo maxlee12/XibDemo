@@ -23,6 +23,9 @@
 		213E00C31D82A59F009F44E7 /* local.strings in Resources */ = {isa = PBXBuildFile; fileRef = 213E00BA1D82A59F009F44E7 /* local.strings */; };
 		213E00C41D82A59F009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00BC1D82A59F009F44E7 /* ReadMe */; };
 		213E00CA1D82A7DB009F44E7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 213E00C91D82A7DB009F44E7 /* ReadMe */; };
+		214072B81D8667DE00C43BA7 /* ImageTitleImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214072B71D8667DE00C43BA7 /* ImageTitleImageCell.swift */; };
+		214072BA1D86827900C43BA7 /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214072B91D86827900C43BA7 /* DynamicTableViewController.swift */; };
+		214072BD1D86956100C43BA7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214072BC1D86956100C43BA7 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		213E00C71D82A73D009F44E7 /* VendorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
 		213E00C81D82A74E009F44E7 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 		213E00C91D82A7DB009F44E7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		214072B71D8667DE00C43BA7 /* ImageTitleImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTitleImageCell.swift; sourceTree = "<group>"; };
+		214072B91D86827900C43BA7 /* DynamicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
+		214072BC1D86956100C43BA7 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,7 @@
 				212E8DDF1D82A0FF0098C96D /* AppDelegate.swift */,
 				212E8DE11D82A0FF0098C96D /* ViewController.swift */,
 				212E8DE31D82A0FF0098C96D /* Main.storyboard */,
+				213E00CB1D82ADEA009F44E7 /* XibTest */,
 				213E00A71D82A59F009F44E7 /* Business */,
 				213E00B11D82A59F009F44E7 /* Public */,
 				212E8DE61D82A0FF0098C96D /* Assets.xcassets */,
@@ -153,6 +160,7 @@
 		213E00A71D82A59F009F44E7 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				214072BB1D86954200C43BA7 /* Test */,
 				213E00A81D82A59F009F44E7 /* General */,
 				213E00AD1D82A59F009F44E7 /* Models */,
 				213E00AF1D82A59F009F44E7 /* Sections */,
@@ -181,6 +189,7 @@
 		213E00AA1D82A59F009F44E7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				214072B91D86827900C43BA7 /* DynamicTableViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -188,6 +197,7 @@
 		213E00AC1D82A59F009F44E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				214072B71D8667DE00C43BA7 /* ImageTitleImageCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -272,6 +282,22 @@
 			path = Vendors;
 			sourceTree = "<group>";
 		};
+		213E00CB1D82ADEA009F44E7 /* XibTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XibTest;
+			sourceTree = "<group>";
+		};
+		214072BB1D86954200C43BA7 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				214072BC1D86956100C43BA7 /* TestView.swift */,
+			);
+			name = Test;
+			path = General/Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,13 +366,16 @@
 				TargetAttributes = {
 					212E8DDB1D82A0FE0098C96D = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					212E8DEF1D82A0FF0098C96D = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 212E8DDB1D82A0FE0098C96D;
 					};
 					212E8DFA1D82A0FF0098C96D = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 212E8DDB1D82A0FE0098C96D;
 					};
 				};
@@ -413,7 +442,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				212E8DE21D82A0FF0098C96D /* ViewController.swift in Sources */,
+				214072BD1D86956100C43BA7 /* TestView.swift in Sources */,
 				212E8DE01D82A0FF0098C96D /* AppDelegate.swift in Sources */,
+				214072BA1D86827900C43BA7 /* DynamicTableViewController.swift in Sources */,
+				214072B81D8667DE00C43BA7 /* ImageTitleImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +593,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amfloat.XibDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -572,6 +605,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amfloat.XibDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -583,6 +617,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amfloat.XibDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XibDemo.app/XibDemo";
 			};
 			name = Debug;
@@ -595,6 +630,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amfloat.XibDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XibDemo.app/XibDemo";
 			};
 			name = Release;
@@ -606,6 +642,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amfloat.XibDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = XibDemo;
 			};
 			name = Debug;
@@ -617,6 +654,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amfloat.XibDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = XibDemo;
 			};
 			name = Release;
